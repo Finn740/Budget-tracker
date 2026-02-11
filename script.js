@@ -35,7 +35,7 @@ function renderTransactions() {
 
 //4. Deze functie is een event listener
 
-
+form.addEventListener("submit", function (event) {event.preventDefault();}  )
 
 // ===============================
 // TODO (DIT MOET JIJ MAKEN):
